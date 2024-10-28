@@ -10,6 +10,17 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+        border: "var(--border)",
+      },
+      screens: {
+        sm: "700px",
+        md: "1000px",
+        ld: "1300px",
+      },
+      fontSize: {
+        "2xl": "40px",
       },
     },
   },
